@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "test12" {
   name     = "test123vrunda"
-  location = "westus"
+  location = var.testvar
 }
 
 resource "azurerm_storage_account" "storage1" {
