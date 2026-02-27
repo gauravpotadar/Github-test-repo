@@ -1,0 +1,3 @@
+variable "testvar" {
+  type = string
+}
