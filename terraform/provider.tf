@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name = "madhur-test"
+    resource_group_name  = "madhur-test"
     storage_account_name = "mlnoncode8318229399"
-    container_name = "azureml"
-    key = "dev.terraform.tfstate"
+    container_name       = "azureml"
+    key                  = "dev.terraform.tfstate"
   }
 }
 
