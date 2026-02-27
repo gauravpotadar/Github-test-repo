@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  TF_VERSION: 1.8.0
+  TF_VERSION: 1.10.5
   WORKING_DIR: ./terraform
 
   # Azure Service Principal Authentication
