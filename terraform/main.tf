@@ -11,7 +11,7 @@ resource "azurerm_storage_account" "storage1" {
   account_replication_type = "LRS"
 
   tags = {
-    environment     = "dev"
+    environment     = "qa"
     owner           = "Pooja"
     serviceprovider = "GauravP"
     notification    = "enabled"
