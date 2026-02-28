@@ -8,7 +8,7 @@ resource "azurerm_storage_account" "storage1" {
   resource_group_name      = azurerm_resource_group.test12.name
   location                 = azurerm_resource_group.test12.location
   account_tier             = "Standard"
-  account_replication_type = "LRS"
+  account_replication_type = "GRS"
 
   tags = {
     environment     = "qa"
